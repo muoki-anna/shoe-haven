@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body >
+    <div class="reg-container">
+        <div class="regform-container">
+            <h1>Create Account</h1>
+            <form method="POST" action="register.php" >
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="first_name" name="first_name" required>
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="last_name" name="last_name" required>
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                    <i class="fas fa-eye toggle-password"></i>
+                </div>
+                
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <label for="confirmPassword">Confirm Password</label>
+                </div>
+                
+                <div class="form-footer">
+                    <button type="submit" class="btn">Register</button>
+                    <p class="login-link">Already have an account? <a href="login.html">Sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

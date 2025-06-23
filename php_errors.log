@@ -1,0 +1,10 @@
+[09-Jun-2025 22:53:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'hashedpassword' in 'field list' in C:\xampp\htdocs\shoe-haven\register.php:64
+Stack trace:
+#0 C:\xampp\htdocs\shoe-haven\register.php(64): mysqli->prepare('INSERT INTO cus...')
+#1 {main}
+  thrown in C:\xampp\htdocs\shoe-haven\register.php on line 64
+[09-Jun-2025 22:54:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'hashedpassword' in 'field list' in C:\xampp\htdocs\shoe-haven\register.php:64
+Stack trace:
+#0 C:\xampp\htdocs\shoe-haven\register.php(64): mysqli->prepare('INSERT INTO cus...')
+#1 {main}
+  thrown in C:\xampp\htdocs\shoe-haven\register.php on line 64
